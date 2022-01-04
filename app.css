@@ -1,0 +1,44 @@
+body{
+    background-color:#f5d9d5;
+    font-family: "nunito" sans-serif;
+}
+
+#mainnavbar .navbar-brand{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainnavbar .nav-link{
+    font-size: 1.5rem;
+    font-weight: 50;
+}
+#mainnavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+#slash{
+   color: #ea1c2c;
+}
+#headingGroup h2 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+#headingGroup span{
+    color: #ea1c2c;
+}
+.putSpace{
+    margin-top: 100px;
+}
+
+@media(max-width: 1200px){
+    #headingGroup h2{ 
+    font-weight: 100;
+    font-size: 3rem;
+ }
+
+}
+@media(max-width: 1200px){
+    #secondText p{
+        font-weight: 100;
+        font-size: 1rem;
+     }
+}
